@@ -1,0 +1,110 @@
+/* Global area start */
+body{
+    margin : 0;   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3{   
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.Colorful-text {
+    color : #FA804C;
+}
+h4 {
+    color: #363958;
+}
+ p {
+    font-size: 0.9em;
+}
+/* Global area End */
+/* Header Section start*/
+.navbar{
+    background-color: white;
+}
+header img {
+  width : 100%;
+}
+
+header .content-area h1 {
+    font-size: 50px;
+    color: #363958;
+}
+/* Header Section End*/
+
+/* Product section start */
+#Product img {
+    background-color: rgba(128, 128, 128, 0.178);
+    height: 350px;
+    border-radius: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+#Product .card-area {
+    border: none; 
+    width: 90%; 
+    margin: 0 auto; 
+    background-color: rgba(216, 191, 216, 0.157);
+    border-radius: 10px;
+}
+#Product-2 .card-area {
+    border: none;   
+}
+/* Product section End */
+/* About section start */
+#About img {
+    width: 100%;
+}
+#About .about-box {
+    background-color: rgba(216, 191, 216, 0.26);
+}
+/* About section End */
+/* Contact section start */
+.contact-icon {
+    font-size: 40px;   
+}
+.contact-info-area {
+    background-color: rgba(234, 130, 238, 0.342);
+    border-radius: 10px;
+}
+input {
+    width: 90%;
+    padding: 5px 10px;
+    margin : 10px 0px;
+    border-radius: 10px;    
+}
+.send-sms-area {
+    background-color: rgba(238, 130, 238, 0.486);
+    border-radius: 15px;
+}
+/* Contact section End */
+/* Media Query start */
+@media  (max-width: 768px){
+    #Home .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #Home .text-area {
+        margin: 0 auto;
+    }
+    #About .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #About .reverse-row {
+        
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        padding: 0 20%;
+    }
+    #About .reverse-row img {
+        width: 20%;
+    }
+}
+/* Media Query End */
+ 
