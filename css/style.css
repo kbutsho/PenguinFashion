@@ -71,15 +71,11 @@ header .content-area h1 {
     background-color: rgba(234, 130, 238, 0.342);
     border-radius: 10px;
 }
-input {
-    width: 90%;
-    padding: 5px 10px;
-    margin : 10px 0px;
-    border-radius: 10px;    
-}
 .send-sms-area {
     background-color: rgba(238, 130, 238, 0.486);
     border-radius: 15px;
+    padding: 50px;
+    width: 100%;
 }
 /* Contact section End */
 /* Media Query start */
