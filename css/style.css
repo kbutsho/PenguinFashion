@@ -70,7 +70,9 @@ header .content-area h1 {
 .contact-info-area {
     background-color: rgba(234, 130, 238, 0.342);
     border-radius: 10px;
+    min-height: 165px;
 }
+
 .send-sms-area {
     background-color: rgba(238, 130, 238, 0.486);
     border-radius: 15px;
